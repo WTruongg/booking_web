@@ -1,0 +1,49 @@
+<div class="container d-flex justify-content-center mt-3">
+    <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+        <form [formGroup]="signupForm" (ngSubmit)="register()">
+            <!-- Fullname input -->
+            <div class="form-outline mb-1">
+                <label class="form-label" for="form3Example3">Full Name</label>
+                <input formControlName="fullname" type="email" id="form3Example3" class="form-control form-control-lg"
+                    placeholder="Họ tên" />
+                <div *ngIf="signupForm.controls['fullname'].dirty  && signupForm.hasError('required','fullname')" class="alert alert-danger" role="alert">
+                    <strong>Trường này bắt buốc</strong>
+                </div>
+            </div>
+            <!-- Email input -->
+            <div class="form-outline mb-1">
+                <label class="form-label" for="form3Example3">Email address</label>
+                <input formControlName="email" type="email" id="form3Example3" class="form-control form-control-lg"
+                    placeholder="Địa chỉ email" />
+                    <div *ngIf="signupForm.controls['email'].dirty  && signupForm.hasError('required','email')" class="alert alert-danger" role="alert">
+                        <strong>Email chưa chính xác</strong>
+                    </div>
+            </div>
+            <!-- Phone input -->
+            <div class="form-outline mb-1">
+                <label class="form-label" for="form3Example3">Phone</label>
+                <input formControlName="phone" type="text" id="form3Example3" class="form-control form-control-lg" maxlength="10"
+                    placeholder="Số điện thoại" />
+                    <div *ngIf="signupForm.controls['phone'].dirty  && signupForm.hasError('minlength','phone')" class="alert alert-danger" role="alert">
+                        <strong>Số điện thoại chưa hợp lệ (10)</strong>
+                    </div>
+            </div>
+            <!-- Password input -->
+            <div class="form-outline mb-1">
+                <label class="form-label" for="form3Example4">Password</label>
+                <input formControlName="password" type="password" id="form3Example4"
+                    class="form-control form-control-lg" placeholder="Mật khẩu" />
+                    <div *ngIf="signupForm.controls['password'].dirty  && signupForm.hasError('minlength','password')" class="alert alert-danger" role="alert">
+                        <strong>Không được bỏ trống và hơn 8 ký tự </strong>
+                    </div>
+            </div>
+            <div class="text-center text-lg-start mt-4 pt-2">
+                <button type="submit" class="btn btn-primary btn-lg"
+                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Đăng ký</button>
+                <p class="small fw-bold mt-2 pt-1 mb-0">Đã có tài khoản <a [routerLink]="['/client/login']"
+                        class="link-danger">Login</a></p>
+            </div>
+
+        </form>
+    </div>
+</div>

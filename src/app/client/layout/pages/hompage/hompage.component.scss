@@ -1,0 +1,74 @@
+.gallery{
+    margin-top: 15px;
+}
+.gallery-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-1 img{
+    width: 630px;
+    height: 300px;
+}
+
+.gallery-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.gallery-2 img{
+    width: 420px;
+    height: 250px;
+}
+
+.gallery-img{
+    position: relative;
+}
+
+.gallery-img .gallery-caption{
+    position: absolute;
+    bottom: 10px;
+    color: #000;
+    right: 5px;
+    background-color: rgba(255,255,255,.8);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.gallery-img .gallery-caption h4{
+    font-size: 30px;
+}
+
+.chinhanh{
+    display: flex;
+    flex-wrap: wrap;
+    li{
+        width: 18.1982%;
+        padding: 0 2.25225% 0 0;
+        margin-top: 15px;
+        list-style: none;
+        a{
+            color: #000;
+            text-decoration: none;
+            font-weight: 800;
+        }
+    }
+}
+
+.promotion{
+    display: flex;
+    align-items: center;
+    padding: 15px 5px;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        .promotion-text{
+            margin-left: 15px;
+            .btn-promotion{
+                background-color: #003580;
+                border: none;
+                color: #fff;
+                padding: 8px 12px;
+            }
+        }
+}
+

@@ -1,0 +1,78 @@
+.heading{
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.room-container{
+    .room-heading{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        .sort-price{
+            ul{
+                li{
+                    font-size: 15px;
+                    padding: 3px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+
+
+    .room-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .item{
+            width: 48%;
+            display: flex;
+            margin: 8px;
+            border-bottom: 1px solid #000;
+            justify-content: space-between;
+            padding-bottom: 8px;
+            img{
+                max-width: 200px;
+            }
+            .item-info{
+                margin-left: 8px;
+                display: flex;
+                justify-content: space-between;
+                a{
+                    color: #000;
+                    h5{
+                        font-size: 27px;
+                        &:hover{
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .item-des{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    button{
+                        background-color: #254dbb;
+                        color: #fff;
+                        border-radius: 4px 4px 4px 0;
+                        border: none;
+                    }
+                    .price{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-end;
+                    }
+                    .price p:first-child{
+                        font-size: 29px;
+                        font-weight: 900;
+                        margin-bottom: 0 !important;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

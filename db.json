@@ -1,0 +1,183 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "category": "VIP",
+      "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/278085383.jpg?k=f73e93fa8f3da7631ca53d05323b5a2125ca0d4c2e5ffa67447ae6272f3f2cc1&o=&hp=1",
+      "price": 950000,
+      "rating": 10
+    },
+    {
+      "id": 2,
+      "category": "normal",
+      "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/363355782.jpg?k=fb50f0074a64c7355448ff924d53e4fb8e173b0fe697879d7952bd8b24b33ec3&o=&hp=1",
+      "price": 780000,
+      "rating": 8
+    },
+    {
+      "id": 3,
+      "category": "VIP",
+      "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/197041667.jpg?k=9b084807dde4827f20a0d35f1c01b7850e36cc3c07c950890dd525972cb57b78&o=&hp=1",
+      "price": 890000,
+      "rating": 9.2
+    },
+    {
+      "id": 4,
+      "category": "normal",
+      "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/239190587.jpg?k=40f45ab2ee29804a685778e6594e0b582d2c407dc5556091b86709959aa24ece&o=&hp=1",
+      "price": 800000,
+      "rating": 9
+    },
+    {
+      "id": 5,
+      "category": "VIP",
+      "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/239190587.jpg?k=40f45ab2ee29804a685778e6594e0b582d2c407dc5556091b86709959aa24ece&o=&hp=1",
+      "price": 1100000,
+      "rating": 9.9
+    },
+    {
+      "id": 6,
+      "category": "normal",
+      "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/336590291.jpg?k=c3523099b6126bb89dfe61aa20d4d68be896f9c6c8b3bccd38303e24d02d36fc&o=&hp=1",
+      "price": 580000,
+      "rating": 6.5
+    },
+    {
+      "id": 7,
+      "category": "VIP",
+      "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/336590309.jpg?k=f0fe49049c50766c3cf2edca3f450c4e9cfb99fc274a80193f90026715e4d63a&o=&hp=1",
+      "price": 1200000,
+      "rating": 9.8
+    },
+    {
+      "id": 8,
+      "category": "normal",
+      "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/362886563.jpg?k=8891b0050b4313f49377f9ae7de867c4132ef237bd808d528b911e5b504f0186&o=&hp=1",
+      "price": 700000,
+      "rating": 7
+    },
+    {
+      "id": 9,
+      "category": "normal",
+      "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/232447341.jpg?k=838c8dc78f93262571ef30354d50a7e724bd3f16554ae59815241f271e8f5331&o=&hp=1",
+      "price": 689000,
+      "rating": 8
+    },
+    {
+      "id": 10,
+      "category": "VIP",
+      "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/41855691.jpg?k=37226816e248602a1862a7d13d37fce26ef2740c411bfb57b3d52bba7f3def55&o=&hp=1",
+      "price": 1000000,
+      "rating": 9
+    },
+    {
+      "id": 11,
+      "category": "VIP",
+      "img": "https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg?v=47faa659a05e",
+      "price": 100000,
+      "rating": "8"
+    },
+    {
+      "img": "",
+      "rating": "",
+      "price": null,
+      "category": "",
+      "id": 12
+    }
+  ],
+  "usersRegister": [
+    {
+      "id": 1,
+      "fullname": "Admin",
+      "email": "admin@gmail.com",
+      "phone": "0909184004",
+      "password": "adminadmin",
+      "isAdmin": true
+    },
+    {
+      "fullname": "Văn Trường",
+      "email": "vantruongarmy2002@gmail.com",
+      "phone": "0387233587",
+      "password": "88888888",
+      "id": 6
+    }
+  ],
+  "listOrder": [
+    {
+      "id": 1,
+      "method": "Trực tiếp",
+      "room": [
+        {
+          "id": 1,
+          "category": "VIP",
+          "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/278085383.jpg?k=f73e93fa8f3da7631ca53d05323b5a2125ca0d4c2e5ffa67447ae6272f3f2cc1&o=&hp=1",
+          "price": 950000,
+          "rating": 10
+        }
+      ],
+      "customer": {
+        "id": 1,
+        "fullname": "van truong",
+        "email": "admin@gmail.com",
+        "phone": "123123",
+        "password": "adminadmin",
+        "isAdmin": true
+      }
+    },
+    {
+      "id": 2,
+      "method": "Trực tiếp",
+      "room": [
+        {
+          "id": 4,
+          "category": "normal",
+          "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/239190587.jpg?k=40f45ab2ee29804a685778e6594e0b582d2c407dc5556091b86709959aa24ece&o=&hp=1",
+          "price": 800000,
+          "rating": 9
+        },
+        {
+          "id": 6,
+          "category": "normal",
+          "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/336590291.jpg?k=c3523099b6126bb89dfe61aa20d4d68be896f9c6c8b3bccd38303e24d02d36fc&o=&hp=1",
+          "price": 580000,
+          "rating": 6.5
+        }
+      ],
+      "customer": {
+        "id": 1,
+        "fullname": "Admin",
+        "email": "admin@gmail.com",
+        "phone": "0909184004",
+        "password": "adminadmin",
+        "isAdmin": true
+      }
+    },
+    {
+      "id": 3,
+      "method": "Trực tiếp",
+      "room": [
+        {
+          "id": 3,
+          "category": "VIP",
+          "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/197041667.jpg?k=9b084807dde4827f20a0d35f1c01b7850e36cc3c07c950890dd525972cb57b78&o=&hp=1",
+          "price": 890000,
+          "rating": 9.2
+        },
+        {
+          "id": 8,
+          "category": "normal",
+          "img": "https://t-cf.bstatic.com/xdata/images/hotel/max1024x768/362886563.jpg?k=8891b0050b4313f49377f9ae7de867c4132ef237bd808d528b911e5b504f0186&o=&hp=1",
+          "price": 700000,
+          "rating": 7
+        }
+      ],
+      "customer": {
+        "fullname": "Văn Trường",
+        "email": "vantruongarmy2002@gmail.com",
+        "phone": "0387233587",
+        "password": "88888888",
+        "id": 6
+      }
+    }
+  ]
+}

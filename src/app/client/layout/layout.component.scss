@@ -1,0 +1,84 @@
+.header{
+    background-color: #003580;
+}
+.navbar{
+    .navbar-brand{
+        color: #fff;
+        font-size: 26px;
+    }
+
+    .nav-item{
+        margin: 0 10px;
+        padding: 3px 5px;
+        border-radius: 50px;
+        &:hover{
+            background-color: #1f6ad3;
+        }
+    }
+    
+    .nav-link{
+        color: #fff;
+        font-size: 13px;
+        font-weight: 800;
+    }
+}
+
+.register, .login{
+    background-color: #fff !important;
+    color: #003580 !important;
+    font-weight: 800;
+    padding: 8px 20px !important;
+}
+
+
+footer{
+    margin-top: 25px;
+    text-align: center;
+    .footer-top{
+    background-color: #003580;
+    color: #fff;
+    padding: 50px 0;
+    form{
+        input{
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-size: 20px;
+            border: none;
+            outline: none;
+        }
+        button{
+            padding: 12px 25px;
+            font-size: 20px;
+            border: none;
+            background-color: #0071c2;
+            color: #fff;
+            border-radius: 5px;
+            margin-left: 5px;
+        }
+    }
+    }
+
+    .footer-bot{
+        background-color: #1d5db8;
+        padding: 20px 0;
+        button{
+            border: none;
+            background-color: transparent;
+            border: 1px solid #fff;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        ul{
+            li{
+                display: inline-block;
+                list-style-type: none;
+                font-size: 14px;
+                color: #fff;
+                margin-right: 5px;
+                text-decoration: underline;
+            }
+        }
+    }
+    
+}
